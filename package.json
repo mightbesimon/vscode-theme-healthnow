@@ -1,0 +1,32 @@
+{
+	"name": "healthnow-theme",
+	"displayName": "HealthNow Theme",
+	"description": "VS Code theme for HealthNow Ltd internal use only.",
+	"icon": "thumbnails/healthnow.png",
+	"galleryBanner": {
+		"color": "#303841",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mightbesimon/vscode-theme-healthnow/"
+	},
+	"author": "mightbesimon",
+	"publisher": "mightbesimon",
+	"version": "0.99.99",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "HealthNow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/healthnow-color-theme.json"
+			}
+		]
+	}
+}

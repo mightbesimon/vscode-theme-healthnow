@@ -1,5 +1,5 @@
 {
-	"name": "Mariana (Pro)",
+	"name": "HealthNow",
 	"type": "dark",
 	"colors": {
 		"focusBorder": "TRANSPARENT",
@@ -13,6 +13,7 @@
 		"button.foreground": "DARK_1",
 		"button.hoverBackground": "MINTc0",
 		"button.secondaryBackground": "ORANGE",
+		"button.secondaryForeground": "DARK_1",
 		"button.secondaryHoverBackground": "ORANGEc0",
 		"diffEditor.insertedTextBackground": "MINT",
 		"diffEditor.removedTextBackground": "CORAL",
@@ -20,7 +21,6 @@
 		"dropdown.listBackground": "DARK_2",
 		"editor.foreground": "LIGHT_1",
 		"editor.background": "MEDIUM_0",
-		"editor.foldBackground": "BLUE40",
 		"editor.lineHighlightBackground": "MEDIUM_1",
 		"editor.hoverHighlightBackground": "MEDIUM_1",
 		"editor.selectionBackground": "MEDIUM_1",
@@ -55,6 +55,7 @@
 		"editorGutter.addedBackground": "MINT",
 		"editorGutter.modifiedBackground": "ORANGE",
 		"editorGutter.deletedBackground": "RED",
+		"editorRuler.foreground": "MEDIUM_1",
 		"editorIndentGuide.background": "MEDIUM_1",
 		"editorOverviewRuler.findMatchForeground": "YELLOW40",
 		"editorOverviewRuler.rangeHighlightForeground": "YELLOW40",
@@ -152,6 +153,7 @@
 		"statusBar.foreground": "LIGHT_1",
 		"statusBar.background": "DARK_0",
 		"statusBar.debuggingBackground": "ORANGE",
+		"statusBar.debuggingForeground": "DARK_0",
 		"statusBar.noFolderBackground": "DARK_2",
 		"statusBarItem.hoverBackground": "MEDIUM_060",
 		"statusBarItem.activeBackground": "MEDIUM_0a0",
@@ -185,7 +187,7 @@
 		"terminal.ansiBrightMagenta": "PURPLE",
 		"terminal.selectionBackground": "BLUEc0",
 		"terminal.tab.activeBorder": "MINT",
-		"terminalCursor.foreground": "MINT80",
+		"terminalCursor.foreground": "ORANGE80",
 		"terminalCursor.background": "LIGHT_1",
 		"textBlockQuote.border": "TEAL",
 		"textBlockQuote.background": "MEDIUM_1",
@@ -663,6 +665,35 @@
 			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "BLUE"
+			}
+		},
+		{
+			"name": "log error",
+			"scope": "log.error",
+			"settings": {
+				"foreground": "RED",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "log.info",
+			"settings": {
+				"foreground": "MINT",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "log.debug",
+			"settings": {
+				"foreground": "BLUE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "log.warning",
+			"settings": {
+				"foreground": "ORANGE",
+				"fontStyle": "bold"
 			}
 		}
 	]

@@ -25,7 +25,7 @@ class HealthNow:
 	MINT      = hsla(159, 61, 45)
 	TEAL      = hsla(148, 70, 55)
 	BLUE      = hsla(177, 99, 33)
-	# PURPLE
+	PURPLE    = hsla(163, 29, 61)
 
 
 ################################################################
@@ -64,11 +64,10 @@ class ThemeReference:
 ################################################################
 #######                 MAIN STARTS HERE                 #######
 ################################################################
-if __name__ == '__main__':
-	print(HealthNow)
-	(
-		ThemeReference(filename='themes/healthnow-reference.json')
-			.use_theme(Mariana)
-			.use_theme(HealthNow)
-			.export_color_theme(filename='themes/healthnow-color-theme.json')
-	)
+if __name__ == '__main__':\
+(
+	ThemeReference(filename='themes/healthnow-reference.json')
+		.use_theme(Mariana)
+		.use_theme(HealthNow)
+		.export_color_theme(filename='themes/healthnow-color-theme.json')
+)

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
+## v1.0.0 — 24 Nov 2022
+
+First and final release!
+
+- ✨ change purple to match palette
+
 ## v0.99.99 — 20 Aug 2022
 
 Initial pre-release

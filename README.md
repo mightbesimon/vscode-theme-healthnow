@@ -1,4 +1,4 @@
-# Mariana ![](https://github.com/mightbesimon/vscode-theme-healthnow/actions/workflows/publish.yml/badge.svg)
+# HealthNow Theme ![](https://github.com/mightbesimon/vscode-theme-healthnow/actions/workflows/publish.yml/badge.svg)
 
 > Copyright © 2022 mightbesimon.com and HealthNow Global Ltd
 >
